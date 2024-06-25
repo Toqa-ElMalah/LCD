@@ -1,15 +1,8 @@
-/*
- * LCD__P5_.c
- *
- * Created: 10/20/2023 2:52:42 PM
- *  Author: eman
- */ 
-
-
 #include <avr/io.h>
 #include "LCD.h"
-#define  F_CPU 8000000UL
 #include <util/delay.h>
+
+#define  F_CPU 8000000UL
 
 int main(void)
 {
