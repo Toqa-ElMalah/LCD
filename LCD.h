@@ -1,11 +1,3 @@
-/*
- * LCD.h
- *
- * Created: 10/20/2023 3:07:45 PM
- *  Author: eman
- */ 
-
-
 #ifndef LCD_H_
 #define LCD_H_
 
@@ -37,4 +29,4 @@ void LCD_send_command (char Data_port, char command);
 void LCD_send_string (char Data_port, char *ptr);
 void LCD_move_coursor (char Data_port, char row, char column);
 
-#endif /* LCD_H_ */
+#endif 
